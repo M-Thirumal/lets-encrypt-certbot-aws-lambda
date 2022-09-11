@@ -1,0 +1,109 @@
+{
+  "arguments": {
+    "data": {
+      "title": "Test '",
+      "description": "'",
+      "reference_number": 10,
+      "show_results_to_voters": "False",
+      "weighted_votes": "False",
+      "geo_tagging": "False",
+      "geo_fencing": "False",
+      "question_shuffle": "False",
+      "anonymous_voting": "False",
+      "website_redirect": "False",
+      "disclose_voter_in_result": "False",
+      "status": "",
+      "start_date_time": "2022-07-30T05:15:00.000Z",
+      "end_date_time": "2022-08-03T05:15:00.000Z",
+      "result_post_on_poll_close": "False",
+      "start_manually": "False",
+      "alert_time": "2022-07-28T05:15:00.000Z",
+      "alerted": "False",
+      "vote_without_signUp": "False",
+      "announce_result_automatically": "False"
+    },
+    "page": 10,
+    "limit": 10
+  },
+  "identity": {
+    "claims": {
+      "sub": "e674182c-0eea-4041-a5cd-cc8ad361dc61",
+      "custom:Referrer": "default",
+      "email_verified": "True",
+      "iss": "https://cognito-idp.ap-south-1.amazonaws.com/ap-south-1_BHBRqUQZP",
+      "phone_number_verified": "False",
+      "cognito:username": "409bfd71-9025-4871-b722-1f919d0647ec",
+      "origin_jti": "ac5045a9-87ab-482a-9309-b596de21f5a0",
+      "aud": "4p6cs5f5a9h8lbvjq0983iur18",
+      "event_id": "f09bf356-9ae7-4786-910a-50b57a79f06a",
+      "token_use": "id",
+      "auth_time": 1655703052,
+      "name": "Thirumal M",
+      "phone_number": "+918973697871",
+      "exp": 1655706652,
+      "iat": 1655703052,
+      "jti": "d53a69a5-d200-4e10-bb68-e4444cdc9d88",
+      "email": "thirumal@enkindletech.com"
+    },
+    "defaultAuthStrategy": "ALLOW",
+    "groups": "None",
+    "issuer": "https://cognito-idp.ap-south-1.amazonaws.com/ap-south-1_BHBRqUQZP",
+    "sourceIp": [
+      "202.83.16.42"
+    ],
+    "sub": "e674182c-0eea-4041-a5cd-cc8ad361dc61",
+    "username": "e674182c-0eea-4041-a5cd-cc8ad361dc61"
+  },
+  "source": "None",
+  "request": {
+    "headers": {
+      "x-forwarded-for": "202.83.16.42, 52.46.49.137",
+      "cloudfront-viewer-country": "IN",
+      "cloudfront-is-tablet-viewer": "false",
+      "x-amzn-requestid": "a2f8f349-fb70-4337-815a-0c90e7d3dd1c",
+      "via": "2.0 404e365835cd77924d63be96eecef146.cloudfront.net (CloudFront)",
+      "cloudfront-forwarded-proto": "https",
+      "origin": "https://ap-south-1.console.aws.amazon.com",
+      "content-length": "683",
+      "x-forwarded-proto": "https",
+      "accept-language": "en-GB,en-US;q=0.9,en;q=0.8",
+      "host": "y6lfo2jr6fenvofnaurwxvevea.appsync-api.ap-south-1.amazonaws.com",
+      "sec-gpc": "1",
+      "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36",
+      "cloudfront-is-mobile-viewer": "false",
+      "accept": "application/json, text/plain, */*",
+      "cloudfront-is-smarttv-viewer": "false",
+      "accept-encoding": "gzip, deflate, br",
+      "referer": "https://ap-south-1.console.aws.amazon.com/",
+      "content-type": "application/json",
+      "sec-fetch-mode": "cors",
+      "x-amz-cf-id": "BUz53IP1I7FZLv4Koi_P8Dpj2NcE91GjmFz5UMJWUoV_jOP1g92EiQ==",
+      "x-amzn-trace-id": "Root=1-62b00a28-7a44032c7026646b4044f2b5",
+      "authorization": "eyJraWQiOiJKUjZiaVo3eVVOeVhVSFVZUHl1UVRtamhsQTNqTHVLbWh1dmcrS0QzcUlrPSIsImFsZyI6IlJTMjU2In0.eyJzdWIiOiJhOTBhZmFmZC0wNDU4LTRkMGEtYmRiNi1jZjBmNTBkNGI4ZjYiLCJjdXN0b206UmVmZXJyZXIiOiJkZWZhdWx0IiwiZW1haWxfdmVyaWZpZWQiOnRydWUsImlzcyI6Imh0dHBzOlwvXC9jb2duaXRvLWlkcC5hcC1zb3V0aC0xLmFtYXpvbmF3cy5jb21cL2FwLXNvdXRoLTFfQkhCUnFVUVpQIiwicGhvbmVfbnVtYmVyX3ZlcmlmaWVkIjpmYWxzZSwiY29nbml0bzp1c2VybmFtZSI6ImE5MGFmYWZkLTA0NTgtNGQwYS1iZGI2LWNmMGY1MGQ0YjhmNiIsIm9yaWdpbl9qdGkiOiJhYzUwNDVhOS04N2FiLTQ4MmEtOTMwOS1iNTk2ZGUyMWY1YTAiLCJhdWQiOiI0cDZjczVmNWE5aDhsYnZqcTA5ODNpdXIxOCIsImV2ZW50X2lkIjoiZjA5YmYzNTYtOWFlNy00Nzg2LTkxMGEtNTBiNTdhNzlmMDZhIiwidG9rZW5fdXNlIjoiaWQiLCJhdXRoX3RpbWUiOjE2NTU3MDMwNTIsIm5hbWUiOiJUaGlydW1hbCBNIiwicGhvbmVfbnVtYmVyIjoiKzkxODk3MzY5Nzg3MSIsImV4cCI6MTY1NTcwNjY1MiwiaWF0IjoxNjU1NzAzMDUyLCJqdGkiOiJkNTNhNjlhNS1kMjAwLTRlMTAtYmI2OC1lNDQ0NGNkYzlkODgiLCJlbWFpbCI6InRoaXJ1bWFsQGVua2luZGxldGVjaC5jb20ifQ.qXowzQK4XgbP-KychEgrcX2uYnrjHLZIoGZj70716waxLUIpUfiWnrsLfSRxnMzR_yJoml6U97rpMtdP35YHzgEmewG_khWIHCkc2mBxG_tEKMXyCzcPJVbti9W7wdBbNt6HXraYahUIVB9vRbd9q2GLiFmK_LZwshXgB_kVUp2RpQ44mXJ1_Up7YFzsj3dZ7-j_3HEtVYi8Ns_o6jMJT94HR5Wl7DBcujGZqlY4AR3sM9VRLv0ZoXUSW7EXIuR-pDbWwZV8eY9ApXDoFpgRAd8PpHz-AV4y1TYeaEVx9GH3ivbzKzjZ8W6GlC8EkIMR_Auyx5CWC5vwGRYeFiNM7A",
+      "sec-fetch-dest": "empty",
+      "x-amz-user-agent": "AWS-Console-AppSync/",
+      "cloudfront-is-desktop-viewer": "true",
+      "sec-fetch-site": "cross-site",
+      "x-forwarded-port": "443"
+    },
+    "domainName": "None"
+  },
+  "prev": "None",
+  "info": {
+    "fieldName": "createPoll",
+    "selectionSetList": [
+      "nextToken",
+      "scannedCount",
+      "polls",
+      "polls/event_id"
+    ],
+    "selectionSetGraphQL": "{\n  nextToken\n  scannedCount\n  polls {\n    event_id\n  }\n}",
+    "parentTypeName": "Mutation",
+    "variables": {
+      
+    }
+  },
+  "stash": {
+    
+  }
+}
